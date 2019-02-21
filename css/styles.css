@@ -6,16 +6,17 @@
   margin-top: 50px;
 }
 
-
-
-
-#submit-button {
-  display: block;
-  margin: 0 auto;
-  margin-top: 50px;
+.final {
+  text-align: center;
 }
 
 .form-group #name {
   max-width: 400px;
   margin: auto;
+}
+
+#submit-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
 }

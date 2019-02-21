@@ -12,45 +12,59 @@
       <div class="jumbotron">
         <h2>Which Overwatch character are you?</h2>
       </div>
-      <form class="overwatch-form">
-        <div class="form-group nametag">
-          <label for="name">First name</label>
-          <input type="text" class="form-control" id="name">
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group row-2">
-              <label for="color">Favorite color</label>
-              <div class="radio">
-                <label for="pink">Pink</label>
-                <input type="radio" name="color" value="pink" checked>
+      <div class="overwatch-form">
+        <form>
+          <div class="form-group nametag">
+            <label for="name">First name</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group row-2">
+                <label for="color">Favorite color</label>
+                <div class="radio">
+                  <label for="pink">Pink</label>
+                  <input type="radio" name="color" value="pink" checked>
+                </div>
+                <div class="radio">
+                  <label for="black">Black</label>
+                  <input type="radio" name="color" value="black">
+                </div>
+                <div class="radio">
+                  <label for="yellow">Yellow</label>
+                  <input type="radio" name="color" value="yellow">
+                </div>
+                <div class="radio">
+                  <label for="purple">Purple</label>
+                  <input type="radio" name="color" value="purple">
+                </div>
               </div>
-              <div class="radio">
-                <label for="black">Black</label>
-                <input type="radio" name="color" value="black">
-              </div>
-              <div class="radio">
-                <label for="yellow">Yellow</label>
-                <input type="radio" name="color" value="yellow">
-              </div>
-              <div class="radio">
-                <label for="purple">Purple</label>
-                <input type="radio" name="color" value="purple">
+            </div>
+            <div class="col-md-6 row-2">
+              <div class="form-group">
+                <label for="range">Hugs or Shrugs?</label>
+                <select class="form-control" id="range">
+                  <option value="hugs">Hugs</option>
+                  <option value="shrugs">Shrugs</option>
+                </select>
               </div>
             </div>
           </div>
-          <div class="col-md-6 row-2">
-            <div class="form-group">
-              <label for="range">Hugs or Shrugs?</label>
-              <select class="form-control" id="range">
-                <option value="hugs">Hugs</option>
-                <option value="shrugs">Shrugs</option>
-              </select>
-            </div>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-info" id="submit-button">Get your results!</button>
-      </form>
+          <button type="submit" class="btn btn-info" id="submit-button">Get your results!</button>
+        </form>
+      </div>
+      <div class="final" id="reaper">
+        <h3>You got Reaper!</h3>
+      </div>
+      <div class="final" id="mercy">
+        <h3>You got Mercy!</h3>
+      </div>
+      <div class="final" id="moira">
+        <h3>You got Moira!</h3>
+      </div>
+      <div class="final" id="dva">
+        <h3>You got D.Va!</h3>
+      </div>
     </div>
   </body>
 </html>
